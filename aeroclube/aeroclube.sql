@@ -69,7 +69,7 @@ FOREIGN KEY (Cod_Cliente)
 -- Popular Tabela Hospede
 INSERT INTO Hospede VALUES
 	(1,'Pedro','M','10/10/2000',1,'filho'),
-	(2,'Luiz','M','10/01/1995',2,'sobrinho');
+	(2,'Luiz','M','10/01/1995',1,'sobrinho');
 
 -- Selecione Tudo na Tabela Hospede
 SELECT * FROM Hospede;
